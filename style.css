@@ -1,0 +1,130 @@
+body {
+  min-width: 100vh;
+  overflow-x: none;
+}
+
+.nav-item:hover {
+  opacity: 0.9;
+}
+
+.title1 img {
+  height: 50vh;
+  min-width: 100vw;
+  opacity: 0.7
+}
+
+.img-text h2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px black
+}
+
+.img-text p {
+  font-size: 1.7rem;
+  text-shadow: 1px 1px black
+}
+
+.sm-card,
+.sm-card-2 {
+  width: 100%;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.sm-card-2 {
+  grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.card {
+  width: 100%;
+}
+
+.sm-card.card img {
+  height: 11rem;
+}
+
+.card--info {
+  padding: 1.3rem;
+  text-align: left;
+  align-items: center
+}
+
+.lg-card,
+.big-card {
+  display: grid;
+  margin-top: 4rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.lg-card-img {
+  height: 19rem;
+}
+
+.title2 img {
+  height: 50vh;
+  min-width: 100vw;
+  opacity: 0.7
+}
+
+.big-card {
+  grid-template-columns: 1fr
+}
+
+.big-card-img {
+  height: 28rem;
+}
+
+.form img {
+  min-width: 100vw;
+}
+
+.form p {
+  font-size: 1rem;
+}
+
+.form-info {
+  gap: 0.3rem;
+  margin-right: 1rem;
+}
+
+.form-info input {
+  width: 100%;
+  background: none;
+
+}
+
+.form-info input::placeholder,
+.form-message textarea::placeholder {
+  color: black;
+  background: none;
+  font-weight: 500;
+}
+
+.form-message {
+  gap: 0.3rem;
+}
+
+.form-message textarea {
+  height: 6rem;
+  background: none;
+  color: black
+}
+
+.form-message input:nth-child(2) {
+  display: block;
+}
+
+@media (max-width: 425px) {
+
+  .sm-card,
+  .sm-card-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title1 img {
+    min-width: 100vw;
+  }
+}
